@@ -1,4 +1,20 @@
 # Hangman
 Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts.
 
-This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
+This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it.
+
+## Milestone 1
+
+- General set up of the development environment including the git repository 'hangman' and its correspondence with GitHub.
+
+## Milestone 2
+
+- Setup of the 'word_list' variable giving a selection of 5 fruits.
+
+
+```
+word_list = ["orange", "apple", "melon", "blueberry", "grape"]
+```
+
+- The 'random' module randomly selects a word from the specified list of fruit and assigns the selected fruit to a variable 'word'.
+- The user is given the option to input a guess letter which has conditional statements such the the input is both a single character and is in the alphabet.
