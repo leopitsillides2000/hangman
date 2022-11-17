@@ -18,3 +18,9 @@ word_list = ["orange", "apple", "melon", "blueberry", "grape"]
 
 - The 'random' module randomly selects a word from the specified list of fruit and assigns the selected fruit to a variable 'word'.
 - The user is given the option to input a guess letter which has conditional statements such the the input is both a single character and is in the alphabet.
+
+## Milestone 3
+
+- Encases conditional statements in a while loop to ensure input is repeated until valid.
+- Creates another conditional statement to notify the user of whether the guess is in the word.
+- Wraps the latter condtional statement in a function called 'check_guess' and then writes in a function 'ask_for_input' that utilises the former conditional statement and the check_guess function.
