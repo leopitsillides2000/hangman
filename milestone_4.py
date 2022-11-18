@@ -9,5 +9,25 @@ class Hangman:
         self.word_list = word_list
         self.list_of_guesses = []
 
-#print(Hangman(['apple', 'pear']).word_guessed)
+    def check_guess(self, guess):
+        guess.lower()
+        if guess in self.word:
+            print(f"Good guess! {guess} is in the word.")
+        else:
+            print(f"Sorry, {guess} is not in the word. Try again.")
+
+    def ask_for_input(self):
+        while True:
+            guess = input("Please enter a single letter: ")
+            if len(guess) != 1 or guess.isalpha() == False:
+                print("Invalid letter. Please, enter a single alphabetical character.")
+            elif guess in self.list_of_guesses:
+                print("You already tried that letter!")
+            else:
+                self.check_guess(guess) ##Does this need self argument?
+                self.list_of_guesses.append(guess)
+    
+
+
+Hangman(['apple', 'pear']).ask_for_input()
 
