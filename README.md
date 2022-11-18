@@ -24,3 +24,9 @@ word_list = ["orange", "apple", "melon", "blueberry", "grape"]
 - Encases conditional statements in a while loop to ensure input is repeated until valid.
 - Creates another conditional statement to notify the user of whether the guess is in the word.
 - Wraps the latter condtional statement in a function called 'check_guess' and then writes in a function 'ask_for_input' that utilises the former conditional statement and the check_guess function.
+
+## Milestone 4
+
+- Creates a class 'Hangman' that will contain the code for the game.
+- Within the 'Hangman' class key components are initialised so that they can be kept track of during the proceedings of the game.
+- Two methods were introduced, these were simply variations of the functions from milestone 3, 'check_guess' and 'ask_for_input'.
