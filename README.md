@@ -23,7 +23,7 @@ word_list = ["orange", "apple", "melon", "blueberry", "grape"]
 
 - Encases conditional statements in a while loop to ensure input is repeated until valid.
 - Creates another conditional statement to notify the user of whether the guess is in the word.
-- Wraps the latter condtional statement in a function called 'check_guess' and then writes in a function `ask_for_input` that utilises the former conditional statement and the check_guess function.
+- Wraps the latter condtional statement in a function called `check_guess` and then writes in a function `ask_for_input` that utilises the former conditional statement and the check_guess function.
 
 ## Milestone 4
 
