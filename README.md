@@ -28,5 +28,24 @@ word_list = ["orange", "apple", "melon", "blueberry", "grape"]
 ## Milestone 4
 
 - Creates a class 'Hangman' that will contain the code for the game.
-- Within the 'Hangman' class key components are initialised so that they can be kept track of during the proceedings of the game.
+- Within the 'Hangman' class key attributes 
+```
+word
+```
+```
+word_guessed
+```
+```
+num_letters
+```
+```
+num_lives
+```
+```
+word_list
+```
+```
+list_of_guesses
+```
+are initialised so that they can be kept track of during the proceedings of the game.
 - Two methods were introduced, these were simply variations of the functions from milestone 3, 'check_guess' and 'ask_for_input'.
